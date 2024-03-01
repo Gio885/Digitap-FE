@@ -1,0 +1,103 @@
+.containerNav{
+    height: 80px;
+    background-color: #13638c ;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+.containerNav p{
+    color: white;
+    position: relative;
+    left: -400px;
+}
+.containerNav img{
+    position: relative;
+    left: -200px;
+    scale: .15;
+}
+
+.containerNav2 {
+    display: flex;
+    flex-direction: row;
+   /* border-bottom: 1px solid rgba(128, 128, 128, 0.42);*/
+    border-left: 1px solid rgba(128, 128, 128, 0.42);
+    border-right: 1px solid rgba(128, 128, 128, 0.42)
+}
+.left {
+    width: 30%;
+    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 80%;
+}
+.left h1{
+    color: #13638c;
+    position: relative;
+    left: -20px;
+    inline-size: 100px;
+    text-align: left;
+    font-size: 40px;
+    top:35px
+}
+.left img{
+    scale:.7;
+    cursor: pointer;
+    width: 250px;
+    position: relative;
+}
+.right{
+    width: 70%;
+    color: #13638c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    position: relative;
+    top:30px
+}
+.right p{
+    position: relative;
+    font-size: 20px;
+    left: 250px;
+}
+.right i{
+    position: relative;
+    margin-left: 20px;
+    left: 280px;
+}
+.buttonFooter {
+    height: 50px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #13638c;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    bottom: 0;
+    position: relative;
+    border-right: 1px solid rgba(128, 128, 128, 0.42);
+    border-left: 1px solid rgba(128, 128, 128, 0.42);
+    /*border-top: 1px solid rgba(128, 128, 128, 0.42);*/
+    background-color: #ffffff; /* Aggiungi il colore di sfondo desiderato */
+}
+.containerFooter {
+    height: 40%;
+    display: flex;
+    align-items: center;
+    background-color:#13638c ;
+}
+
+.bottoneNav {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    top: 20px;
+    height: 110px;
+    width: 257px;
+}

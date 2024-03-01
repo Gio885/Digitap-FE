@@ -1,0 +1,215 @@
+.page {
+    height: auto;
+    margin-bottom: -15px;
+}
+.pagePrimoContainerSfondo {
+    background-color: rgba(0, 0, 0, 0.47);
+
+}
+.pagePrimoContainer {
+    height: 560px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.pagePrimoContainer img {
+    opacity: 1;
+    position: relative;
+    width: 1475px;
+    z-index: -1;
+}
+.pagePrimoContainer h2 {
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    font-size: 35px;
+    transform: translateX(-50%);
+}
+.pagePrimoContainer h4{
+    position: absolute;
+    color: white;
+    top: 150px;
+    width: 1000px;
+    left: 250px;
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: left;
+}
+.pagePrimoContainer button {
+    position: absolute;
+    top: 500px;
+    left: 670px;
+    background-color: #03a550;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+.pagePrimoContainer button:hover{
+    background-color: rgba(29, 215, 117, 0.69);
+}
+.pageSecondoContainer{
+    background-color: #13638c;
+    display: flex;
+    align-items: center;
+}
+.pageSecondoContainer h1{
+    font-size: 50px;
+    margin: 0;
+    position: relative;
+    color: white;
+}
+.pageSecondoContainer img{
+   position: relative;
+    left: -200px;
+    scale: .6;
+}
+.pageSecondoContainer div{
+    position: relative;
+    display: flex;
+}
+.pageSecondoContainer input{
+    height: 50px;
+    width: 500px;
+    border-radius: 25px;
+    position: relative;
+    margin-top:20px;
+    margin-bottom: 20px;
+
+}
+.pageSecondoContainer p{
+    height: auto;
+    width: 700px;
+    border-radius: 25px;
+    position: relative;
+    text-align: left;
+    color: white;
+}
+.pageTerzoContainer {
+    position: relative;
+    height: auto;
+   /* border-left: 1px solid rgba(128, 128, 128, 0.26);
+    border-right: 1px solid rgba(128, 128, 128, 0.42);*/
+    text-align: left
+    }
+.pageTerzoContainer h1{
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    position: relative;
+    margin:0;
+    top:60px;
+    left: 65px;
+}
+.containerEtichetta{
+    height: 40px;
+    width: 350px;
+    position: relative;
+    top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 30px;
+}
+
+.containerDettagli{
+    height: auto;
+    text-align: left;
+}
+
+.pageTerzoContainer p {
+    position: relative;
+    font-size: 25px;
+    margin: 0;
+    left:20px;
+}
+.pageTerzoContainer p:nth-of-type(1) {
+    left: 100px;
+    text-align: left;
+    margin-top: 0px;
+}
+
+
+.containerGrid{
+    position: relative;
+    margin: auto;
+    width: 1300px;
+    height: auto;
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 50px;
+    top:50px;
+    margin-bottom: 120px;
+
+    /* grid-template-columns: repeat(2, 1fr);  Ad esempio, 4 colonne con larghezza uguale */
+}
+.containerOneNews {
+    display: flex;
+    flex-direction: row;
+    background-color: #13638c;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 10px;
+    position: relative;
+    top: 50px;
+    z-index: 0;
+}
+
+.containerOneArea {
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F4F4;
+    border-radius:20px;
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+.containerDescrizioneNews{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 30px;
+    position: relative;
+    width: 100%;
+}
+
+.bottoneHomePage {
+    position: relative;
+    width: 110px;
+    height: 100px;
+    cursor: pointer;
+    background-color: transparent;
+    border:none;
+    z-index:1
+}
+
+.containerBottoniLista {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    bottom: 0
+}
+.bottonePagineLista{
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+/* dimensione del map container*/
+.leaflet-container {
+    height: 100%;
+    width: 100%;
+}
+
